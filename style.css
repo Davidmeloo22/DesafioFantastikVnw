@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* border: solid red; */
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  background-color: #252525;
+  color: #ffffff;
+}
+/* Pata_header define a logo da pata do cabeçalho */
+.pata_header {
+  width: 3vw;
+}
+
+/* figure_header engloba a logo junto com o "FANTASTIKA" do header */
+.figure_header {
+  display: flex;
+  width: 12vw;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 6em;
+}
+
+.figure_header p {
+  font-family: "Roboto Serif", serif;
+  font-weight: 700;
+}
+/* nav_header engloba os icones (Youtube, insta e whatsapp) do header */
+.nav_header {
+  width: 12vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* A partir daqui, main e seções da Main */
+
+/* primeira seção que contem o cachorro com chapéu. Engloba tanto a img background quanto o texto. */
+.primeira_section_main {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Grupo 486.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 51px;
+  color: #ffffff;
+  white-space: pre-line;
+  padding-top: 2em;
+}
+.primeira_section_main h1 {
+  font-family: "Roboto Serif", serif;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 56px;
+  max-width: 510px;
+  text-align: center;
+  padding-bottom: 59px;
+}
+
+/* Seção cachorro de de pelúcia*/
+.segunda_section_main {
+  height: 90vh;
+  background-size: 60%;
+  background-image: url("./img/Interseção 16.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #3a342f;
+  background-color: #f4f2f3;
+}
+
+/* Caixa que contem "So banho e tosa - até - fale conosco */
+.segunda_section_main div {
+
+  margin-left: 62px;
+  display: flex;
+  flex-direction: column;
+  width: 32vw;
+  height: 60vh;
+}
+
+/* Título da 2ª seção dentro da div*/
+.segunda_section_main h2 {
+  font-size: 49px;
+  font-family: "Roboto Serif", serif;
+  margin-top: 20px;
+}
+/* Paragrafo da 2ª seção dentro da div */
+.segunda_section_main p {
+  white-space: pre-line;
+  font-size: 27px;
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+/* Botão fale conosco - segunda seção - dentro da div */
+.segunda_section_main a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16vw;
+  height: 12vh;
+  border-radius: 44px;
+  font-size: 27px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #3a342f;
+  margin-top: 20px;
+}
+
+/* Sessão do cachorro preto */
+
+/* Principal que engloba a imagem background, deefine um tanho, uma altura e alinha os conteúdos */
+.terceira_section_main {
+  height: 112vh;
+  background-size: 100% 100%;
+  background-image: url("./img/Grupo 480@2x.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* caixa div que engloba o "Mordomia saudável", paragrafo e botão fale conosco*/
+.terceira_section_main div {
+  margin-right: 62px;
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+  height: 60vh;
+  color: #ffffff;
+}
+/* título da div */
+.terceira_section_main h2 {
+  font-size: 49px;
+  font-family: "Roboto Serif", serif;
+}
+/* paragrafo da div */
+.terceira_section_main p {
+  font-size: 27px;
+  margin-top: 20px;
+}
+
+/* botão fale conosco dentro da div */
+.terceira_section_main a {
+  /* O PORQUE AQUI NÃO AUMENTOU E EMBAIXO AUMENTOU SÓ POR CONTA DO DISPLAY FLEX */
+  /* width: 36vw;
+  height: 12vh;
+  font-size: 27px;
+  /* border-radius: 44px; */
+  /* background-color: #ffffff;
+  color: #000000;
+  text-decoration: none; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16vw;
+  height: 12vh;
+  border-radius: 44px;
+  font-size: 27px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+/* A div contendo apoio, americanas e havainas*/
+.divisao_main_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: solid 1px red;
+  padding:  36px 10px;
+}
+.div_interna {
+  width: 100%;
+  border: solid 1px blue;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+.img_div {
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+/* Parte do footer, engloba todos os conteúdos de dentro do footer */
+footer nav {
+  color: #ffffff;
+  background-color: #eb4a7b;
+  height: 46vh;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  list-style-type: none;
+}
+
+/* Aqui estar empurrando todas as seções dentro do nav/footer para direita*/
+footer nav section {
+  margin-left: 3rem;
+  /* margin-left: 6em;  JOÃO FALOU PRA COLOCAR ESSA MARGIN PARA O DESKTOP, MAS NO MOBILE FICA BUGANDO */
+}
+
+/* Aqui estar definindo para todos os conteúdos dentro do footer/nav/OL */
+footer nav ol {
+  font-size: 14px;
+  line-height: 30px;
+  list-style-type: none;
+}
+footer nav ol li h2 {
+  line-height: 3.5rem;
+}
+
+/* Responsivo começa daqui */
+
+@media (max-width: 500px) {
+  .pata_header {
+    margin-right: 8px;
+    width: 38px;
+  }
+  .figure_header {
+    margin-left: 8vw;
+    width: unset;
+  }
+
+  img[alt="instagram_icon"],
+  img[alt="youtube_icon"] {
+    display: none;
+  }
+  .primeira_section_main h1 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 46px;
+    max-width: 400px;
+    text-align: center;
+    padding-bottom: 46px;
+  }
+  .segunda_section_main {
+    background-image: url("./img/cachorrobranco_mobile.png");
+    background-size: cover;
+    background-position: center;
+    height: 1334px;
+    display: flex;
+    justify-content: start;
+  }
+  .segunda_section_main div {
+    height: unset;
+    width: 397px;
+    margin-left: 35px;
+    margin-top: 10em;
+  }
+  .segunda_section_main h2 {
+    font-size: 36px;
+    width: 100%;
+  }
+  .segunda_section_main p {
+    font-size: 22px;
+    max-width: 400px;
+  }
+  .segunda_section_main a {
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+  }
+
+  .terceira_section_main {
+    background-image: url("./img/Grupo 496.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1130px;
+    display: flex;
+    justify-content: start;
+  }
+  .terceira_section_main div {
+    height: unset;
+    width: 397px;
+    margin-left: 35px;
+    margin-top: 10em;
+  }
+  .terceira_section_main h2 {
+    font-size: 39px;
+    width: 400px;
+  }
+  .terceira_section_main p {
+    font-size: 22px;
+    max-width: 400px;
+  }
+  .terceira_section_main a {
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+  }
+
+}
+
+@media (min-width: 501px) {
+.div_interna {
+flex-direction: row;}
+
+}
